@@ -2,46 +2,103 @@
 <html>
 <head>
 	<meta charset="utf-8" />
-	
+	<title>CV Gwendoline RONIN</title>
+	<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Inter:wght@300;400&display=swap" rel="stylesheet"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
 </head>
 <body>
 	<div class="partie_gauche"></div>
 		<div class="header"></div>
 			<img src="image/portrait.png">
-			<div class="bandeau"></div>
+			<div class="bandeau"></div> <!-- le bandeau est-il faisable ? -->
 
-		<div class="info"></div>
-			<div class="date"></div>
-			<div class="tel"></div>
-			<div class="mail"></div>
-			<div class="permis"></div>
+		<div class="info">
+			<h2>Informations</h2>
+			<p>9 octobre 2001</p>
+			<div class="tel">
+			<p>+33 7 82 91 38 91</p></div>
+			<div class="mail">
+			<p>gwendolineronin@gmail.com</p></div>
+			<div class="permis">
+			<p>Permis B</p></div>
+		</div>	<!-- div utiles ou non ?  -->
 
-		<div class="adresse"></div>
-			<div class="street"></div>
-			<div class="city"></div>
+		<div class="adresse">
+			<h2>Adresse</h2>
+			<div class="street">
+				<p>3 rue Victor HUGO</p>
+			</div>
+			<div class="city">
+				<p>42400 Saint Chamond</p>
+			</div>
+		</div>	
 
-		<div class="etudes"></div>
-			<div class="eart"></div>
-			<div class="eart"></div>
-			<div class="eart"></div>
-			<div class="eart"></div>
+		<div class="etudes">
+			<p>e-artsup Lyon</p>
+			<p>2e année de Grande Ecole</p>
+			<p>cursus direction artistique</p>
+			<p>création digitale</p>
+		</div> <!-- Besoin des div ou non ? -->
 
 		<div class="langues"></div>
-			<div class= "jauge"></div>
-				<div class= "jauge_1"></div>
-				<div class= "jauge_2"></div>
-				<div class= "jauge_3"></div>
-			<div class= "langues_titles"></div>
-				<div class = "anglais"></div>
-				<div class = "allemand"></div>
-				<div class = "espagnol"></div>
-
+			<h2>Langues</h2>
+			<span class="jauge">Anglais(B1)</span>
+			<span class="jauge">Allemand(B1))</span>
+			<span class="jauge">Espagnol(A2))</span>
+			<!-- COMMENT METTRE LES JAUGES, en image ? en icones ? -->
 
 	<div class="partie_droite"></div>
 		<div class="header2"></div>
+				<h1>Gwendoline RONIN</h1>
+				<p>étudiante en design graphique numérique</p>
+				<!-- bandeau ?? couleur backgroung ?  -->
+			
 		<div class="diplomes"></div>
+			<h2 class="droite">Diplômes</h2>
+			<ul>
+				<li>Baccalauréat</li>
+				<li>Certificat Voltaire</li>
+				<li>DNB</li>
+			</ul>
+			
+				
+			
+
 		<div class="exp"></div>
+			<h2 class="droite">Expériences</h2>
+			<ul>
+				<li><mark>Chez Chabert</mark>, septembre 
+				2020 Serveuse bouchon lyonnais le samedi soir : accueil, prise de commandes, service à table</li>
+				<li><mark>Les Terrasses de Maloé</mark> </li>
+				<li><mark>Secours Populaire</mark>, </li>
+				<li><mark>Agence BBC Architectes</mark></li>
+			</ul>
+
 		<div class="centres"></div>
+			<h2 class="droite">Centre d'intérets</h2>
+			<ul>
+				<li>Danse _ depuis 2005, niveau semi-professionel...</li>
+				<li>Photographie</li>
+			</ul>
+
 		<div class="logiciels"></div>
+			<h2 class="droite">Logiciels maitrisés</h2>
+			<div class="office"></div>
+				<h3>Pack Office</h3>
+				<div class="icon"></div>
+				<div class="icon"></div>
+				<div class="icon"></div>
+				<!-- Faut-il utiliser des spans pour mettre les icones en lignes ? Font awesome Adobe ?  -->
+			<div class="adobe"></div>
+				<h3>Pack Adobe</h3>
+				<div class="icon"></div>
+				<div class="icon"></div>
+				<div class="icon"></div>
+				<div class="icon"></div>
+				<div class="icon"></div>
+				<div class="icon"></div>
+
 
 </body>
