@@ -1,24 +1,41 @@
-.white { color : blue;
-	font-size: 30px;
+.white { 
+	color : white;
+	font-size: 25px;
 }
-h2 {color: red;
+h2 {
+	color: red;
+	font-family: Abril Fatface;
 }
-
-.orange {color : orange; 
-	font-size: 30px;
-}
-p {font-size : 15px;}
  
-.element {
- 	height: 500px;}
-	
-.conteneur_o {background-color : orange; 
+ p{font-family:Inter
  }
 
-.conteneur_b {background-color : white; 
+.orange {
+	color : #FF9438; 
+	font-size: 30px;
+}
+p {
+	font-size : 15px;}
+
+img#portrait{
+max-width: 70%;
+height : auto ;
+opacity: 0.5
+}
+ 
+.element {}
+	
+.conteneur_o {
+	background-color : #FF9438; 
+	max-width: 30%
  }
-.bandeau {color: orange}
-.partie_droite {color background : orange}
+
+.conteneur_b {
+	background-color : white; 
+ }
+.bandeau {
+	color: orange}
+.partie_droite {}
 
  @media (max-width: 767.98px){}
  @media (max-width: 991.98px){}	

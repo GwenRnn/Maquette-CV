@@ -10,11 +10,12 @@
 
 </head>
 <body>
-	<div class="element conteneur_o"></div>
-		<div class="header"></div>
-			<img src="image/portrait.png">
-			<div class="bandeau"></div> 
+	<div class="element conteneur_o">
 
+		<div class="header"></div>
+			<img id="portrait" src="image/portrait.png">
+			<div class="bandeau">
+		</div>
 		<div class="info">
 			<h2 class="white">Informations</h2>
 			<p>9 octobre 2001</p>
@@ -47,11 +48,15 @@
 		<div class="Langues"></div>
 			<h2 class="white">Langues</h2>
 			<span class="jauge">Anglais(B1)</span>
+
 			<span class="jauge">Allemand(B1))</span>
+
 			<span class="jauge">Espagnol(A2))</span>
 			<!-- COMMENT METTRE LES JAUGES, en image ? en icones ? -->
+	</div> 
 
-	<div class="partie_droite"></div>
+
+	<div class="partie_droite">
 		<div class="header2"></div>
 				<h1>Gwendoline RONIN</h1>
 				<p>étudiante en design graphique numérique</p>
@@ -87,29 +92,30 @@
 			<h2 class="orange">Logiciels maitrisés</h2>
 			<div class="office"></div>
 				<h3>Pack Office</h3>
-				<div class="icon"></div>
-				<div class="icon"></div>
-				<div class="icon"></div>
+				<span class="icon"><img src="https://img.icons8.com/wired/50/000000/ms-word.png"/></span>
+				<span class="icon"><img src="https://img.icons8.com/wired/50/000000/ms-excel.png"/></span>
+				<span class="icon"><img src="https://img.icons8.com/wired/50/000000/ms-powerpoint.png"/></span>
 				<!-- Faut-il utiliser des spans pour mettre les icones en lignes ? Font awesome Adobe ?  -->
 			<div class="adobe"></div>
 				<h3>Pack Adobe</h3>
-				<div class="icon">
-					<img src="https://img.icons8.com/ios/100/000000/adobe-illustrator.png"/></div>
-				<div class="icon">
-					<img src="https://img.icons8.com/ios/100/000000/adobe-photoshop.png"/>
-				</div>
-				<div class="icon">
-					<img src="https://img.icons8.com/ios/100/000000/adobe-indesign.png"/>
-				</div>
-				<div class="icon">
-					<img src="https://img.icons8.com/ios/100/000000/adobe-premiere-pro.png"/>
-				</div>
-				<div class="icon">
-					<img src="https://img.icons8.com/ios/100/000000/adobe-after-effects.png"/>
-				</div>
-				<div class="icon">
-					<img src="https://img.icons8.com/ios/100/000000/adobe-lightroom.png"/>
-				</div>
+				<span class="icon">
+					<img src="https://img.icons8.com/ios/50/000000/adobe-illustrator.png"/></span>
+				<span class="icon">
+					<img src="https://img.icons8.com/ios/50/000000/adobe-photoshop.png"/>
+				</span>
+				<span class="icon">
+					<img src="https://img.icons8.com/ios/50/000000/adobe-indesign.png"/>
+				</span>
+				<span class="icon">
+					<img src="https://img.icons8.com/ios/50/000000/adobe-premiere-pro.png"/>
+				</span>
+				<span class="icon">
+					<img src="https://img.icons8.com/ios/50/000000/adobe-after-effects.png"/>
+				</span>
+				<span class="icon">
+					<img src="https://img.icons8.com/ios/50/000000/adobe-lightroom.png"/>
+				</span>
+	</div>
 
 
 </body>
