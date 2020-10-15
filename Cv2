@@ -25,7 +25,9 @@
 			<p>gwendolineronin@gmail.com</p></div>
 			<div class="permis">
 			<p>Permis B</p></div>
-		</div>	<!-- div utiles ou non ?  -->
+		</div>	
+	
+	<!-- div utiles ou non ?  -->
 
 		<div class="adresse">
 			<h2 class="white">Adresse</h2>
@@ -56,15 +58,19 @@
 	</div> 
 
 
+
+
+
 	<div class="partie_droite">
-		<div class="header2"></div>
+		<div id="header2">
 				<h1>Gwendoline RONIN</h1>
 				<p>étudiante en design graphique numérique</p>
+		</div>
 				
 			
 		<div class="orange_title"></div>
 			<h2 class="orange">Diplômes</h2>
-			<ul>
+			<ul class="black">
 				<li>Baccalauréat</li>
 				<li>Certificat Voltaire</li>
 				<li>DNB</li>
@@ -73,19 +79,23 @@
 
 		<div class ="element conteneur_b"></div>
 			<h2 class="orange">Expériences</h2>
-			<ul>
-				<li><mark>Chez Chabert</mark>, septembre 
+			<ul class="black">
+				<li ><mark>Chez Chabert</mark>, septembre 
 				2020 Serveuse bouchon lyonnais le samedi soir : accueil, prise de commandes, service à table</li>
-				<li><mark>Les Terrasses de Maloé</mark> </li>
-				<li><mark>Secours Populaire</mark>, </li>
-				<li><mark>Agence BBC Architectes</mark></li>
+				<li><mark>Les Terrasses de Maloé</mark>, juillet-août 2019
+				Serveuse restaurant à Saint Etienne : accueil, prise de commandes, service au bar et à table </li>
+				<li><mark>Secours Populaire</mark>,avril 2018
+				Préparation d’évènements et manutention</li>
+				<li ><mark>Agence BBC Architectes</mark>stage février 2016 :
+				Plans, maquette, modélisations 3D SketchUp </li>
 			</ul>
+
 
 		<div class="orange_title"></div>
 			<h2 class="orange">Centre d'intérets</h2>
-			<ul>
-				<li>Danse _ depuis 2005, niveau semi-professionel...</li>
-				<li>Photographie</li>
+			<ul class="black">
+				<li >Danse - depuis 2005 , niveau semiprofessionnel,  compétitions, évènements collaboratifs...  </li>
+				<li>Photographie - natures mortes et portraits</li>
 			</ul>
 
 		<div class="orange_title"></div>
