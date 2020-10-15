@@ -12,11 +12,11 @@
 <body>
 	<div class="element conteneur_o">
 
-		<div class="header"></div>
+		<div class="header">
 			<img id="portrait" src="image/portrait.png">
-			<div class="bandeau">
 		</div>
-		<div class="info">
+		
+		<div class="conteners_left">
 			<h2 class="white">Informations</h2>
 			<p>9 octobre 2001</p>
 			<div class="tel">
@@ -26,10 +26,10 @@
 			<div class="permis">
 			<p>Permis B</p></div>
 		</div>	
-	
-	<!-- div utiles ou non ?  -->
 
-		<div class="adresse">
+<!-- div utiles ou non ?  -->
+
+		<div class="conteners_left">
 			<h2 class="white">Adresse</h2>
 			<div class="street">
 				<p>3 rue Victor HUGO</p>
@@ -39,7 +39,7 @@
 			</div>
 		</div>	
 
-		<div class="etudes">
+		<div class="conteners_left">
 			<h2 class="white">Etudes</h2>
 			<p>e-artsup Lyon</p>
 			<p>2e année de Grande Ecole</p>
@@ -47,14 +47,18 @@
 			<p>création digitale</p>
 		</div> <!-- Besoin des div ou non ? -->
 
-		<div class="Langues"></div>
+		<div class="conteners_left">
 			<h2 class="white">Langues</h2>
-			<span class="jauge">Anglais(B1)</span>
-
-			<span class="jauge">Allemand(B1))</span>
-
-			<span class="jauge">Espagnol(A2))</span>
-			<!-- COMMENT METTRE LES JAUGES, en image ? en icones ? -->
+			<span class="black">Anglais (B1)</span>
+			<div class ="fond_jauge"></div>
+			<div class ="jauge1"></div>
+			<span class="black">Allemand (B1)</span>
+			<div class ="fond_jauge"></div>
+			<div class ="jauge2"></div>
+			<span class="black">Espagnol (A2)</span>
+			<div class ="fond_jauge"></div>
+			<div class ="jauge3"></div>
+		</div>
 	</div> 
 
 
@@ -64,67 +68,74 @@
 	<div class="partie_droite">
 		<div id="header2">
 				<h1>Gwendoline RONIN</h1>
-				<p>étudiante en design graphique numérique</p>
+				<p class="white2">étudiante en design graphique numérique</p>
+				<div class="bandeau">
+				</div>
 		</div>
 				
-			
-		<div class="orange_title"></div>
-			<h2 class="orange">Diplômes</h2>
-			<ul class="black">
-				<li>Baccalauréat</li>
-				<li>Certificat Voltaire</li>
-				<li>DNB</li>
-			</ul>
-			
+		<div class="texte_droite">	
+			<div class="orange_title"></div>
+				<h2 class="orange">Diplômes</h2>
+					<div id="trait_dessus"></div>
+				<ul class="black">
+					<li>Baccalauréat Scientifique - mention Très Bien</li>
+					<li>Certificat Voltaire - niveau Affaires</li>
+					<li>Diplôme National du Brevet - mention Très Bien</li>
+				</ul>
+				
 
-		<div class ="element conteneur_b"></div>
-			<h2 class="orange">Expériences</h2>
-			<ul class="black">
-				<li ><mark>Chez Chabert</mark>, septembre 
-				2020 Serveuse bouchon lyonnais le samedi soir : accueil, prise de commandes, service à table</li>
-				<li><mark>Les Terrasses de Maloé</mark>, juillet-août 2019
-				Serveuse restaurant à Saint Etienne : accueil, prise de commandes, service au bar et à table </li>
-				<li><mark>Secours Populaire</mark>,avril 2018
-				Préparation d’évènements et manutention</li>
-				<li ><mark>Agence BBC Architectes</mark>stage février 2016 :
-				Plans, maquette, modélisations 3D SketchUp </li>
-			</ul>
+			<div class ="element conteneur_b"></div>
+				<h2 class="orange">Expériences</h2>
+					<div id="trait_dessus"></div>
+				<ul class="black">
+					<li ><mark>Chez Chabert</mark>, septembre 
+					2020 Serveuse bouchon lyonnais le samedi soir : accueil, prise de commandes, service à table</li>
+					<li><mark>Les Terrasses de Maloé</mark>, juillet-août 2019
+					Serveuse restaurant à Saint Etienne : accueil, prise de commandes, service au bar et à table </li>
+					<li><mark>Secours Populaire</mark>, avril 2018
+					Préparation d’évènements et manutention</li>
+					<li ><mark>Agence BBC Architectes</mark>, stage février 2016 :
+					Plans, maquette, modélisations 3D SketchUp </li>
+				</ul>
 
 
-		<div class="orange_title"></div>
-			<h2 class="orange">Centre d'intérets</h2>
-			<ul class="black">
-				<li >Danse - depuis 2005 , niveau semiprofessionnel,  compétitions, évènements collaboratifs...  </li>
-				<li>Photographie - natures mortes et portraits</li>
-			</ul>
+			<div class="orange_title"></div>
+				<h2 class="orange">Centre d'intérets</h2>
+					<div id="trait_dessus"></div>
+				<ul class="black">
+					<li >Danse - depuis 2005 , niveau semiprofessionnel,  compétitions, évènements collaboratifs...  </li>
+					<li>Photographie - natures mortes et portraits</li>
+				</ul>
 
-		<div class="orange_title"></div>
-			<h2 class="orange">Logiciels maitrisés</h2>
-			<div class="office"></div>
-				<h3>Pack Office</h3>
-				<span class="icon"><img src="https://img.icons8.com/wired/50/000000/ms-word.png"/></span>
-				<span class="icon"><img src="https://img.icons8.com/wired/50/000000/ms-excel.png"/></span>
-				<span class="icon"><img src="https://img.icons8.com/wired/50/000000/ms-powerpoint.png"/></span>
-				<!-- Faut-il utiliser des spans pour mettre les icones en lignes ? Font awesome Adobe ?  -->
-			<div class="adobe"></div>
-				<h3>Pack Adobe</h3>
-				<span class="icon">
-					<img src="https://img.icons8.com/ios/50/000000/adobe-illustrator.png"/></span>
-				<span class="icon">
-					<img src="https://img.icons8.com/ios/50/000000/adobe-photoshop.png"/>
-				</span>
-				<span class="icon">
-					<img src="https://img.icons8.com/ios/50/000000/adobe-indesign.png"/>
-				</span>
-				<span class="icon">
-					<img src="https://img.icons8.com/ios/50/000000/adobe-premiere-pro.png"/>
-				</span>
-				<span class="icon">
-					<img src="https://img.icons8.com/ios/50/000000/adobe-after-effects.png"/>
-				</span>
-				<span class="icon">
-					<img src="https://img.icons8.com/ios/50/000000/adobe-lightroom.png"/>
-				</span>
+			<div class="orange_title"></div>
+				<h2 class="orange">Logiciels maitrisés</h2>
+					<div id="trait_dessus"></div>
+				<div class="office"></div>
+					<p>Pack Office</p>
+					<span class="icon"><img src="https://img.icons8.com/wired/50/000000/ms-word.png"/></span>
+					<span class="icon"><img src="https://img.icons8.com/wired/50/000000/ms-excel.png"/></span>
+					<span class="icon"><img src="https://img.icons8.com/wired/50/000000/ms-powerpoint.png"/></span>
+					<!-- Faut-il utiliser des spans pour mettre les icones en lignes ? Font awesome Adobe ?  -->
+				<div class="adobe"></div>
+					<p>Pack Adobe</p>
+					<span class="icon">
+						<img src="https://img.icons8.com/ios/50/000000/adobe-illustrator.png"/></span>
+					<span class="icon">
+						<img src="https://img.icons8.com/ios/50/000000/adobe-photoshop.png"/>
+					</span>
+					<span class="icon">
+						<img src="https://img.icons8.com/ios/50/000000/adobe-indesign.png"/>
+					</span>
+					<span class="icon">
+						<img src="https://img.icons8.com/ios/50/000000/adobe-premiere-pro.png"/>
+					</span>
+					<span class="icon">
+						<img src="https://img.icons8.com/ios/50/000000/adobe-after-effects.png"/>
+					</span>
+					<span class="icon">
+						<img src="https://img.icons8.com/ios/50/000000/adobe-lightroom.png"/>
+					</span>
+			</div>
 	</div>
 
 

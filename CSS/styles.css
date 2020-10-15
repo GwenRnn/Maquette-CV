@@ -2,12 +2,24 @@
 	color : white;
 	font-size: 25px;
 }
+
+.white2 {
+	color : white;
+}
+
+h1 {
+	color: white;
+	font-family: Abril Fatface;
+	font-size: 70px;
+}
+
 h2 {
 	color: red;
 	font-family: Abril Fatface;
 }
  
- p{font-family:Inter;
+
+p{font-family:Inter;
  	font-size : 15px;
  }
 
@@ -16,59 +28,98 @@ h2 {
 	font-size: 30px;
 }
 
-h3{color : black;
-	font-family:Inter;
-	font-size : 15px;
-	font-weight: 300;
+mark{
+	font-weight:bold;
 }
 
+
 img#portrait{
-max-width: 70%;
+width: 70%;
 height : auto ;
 opacity: 0.5
 }
  
-.element {}
 
 .black {
-	color: black 
+	color: black ;
+	font-family: Inter ;
+	font-size: 15px
 }
 	
 .conteneur_o {
-	background-color : #FF9438; 
+	background-color : #ecc279; 
 	max-width: 30%;
 	padding: 50px;
  }
 
 .partie_droite {
 	background-color : white; 
-	padding: 10px;
+	padding: 60px;
+	width: 60% ; 
+}
 
-.bandeau {
-	color: orange
+
+
+body{
+	display: flex;
+	flex-direction: row;
 	}
 
 
 
-.partie_droite {color: white}
-
-body{
-	display: flex;
-	flex-wrap:wrap;
-
-	
-}
-
-h1 {
-	color: white;
-	font-family: Abril Fatface;
-
-
-}
-
 #header2{
-	background-color: color: #E26E17;
+	background-color: #E26E17;
+	padding: 40px;
 }
+
+#trait_dessus{
+	height: 2px;
+	width: 900px;
+	background-color: orange ;
+	color: orange;
+} 
+
+.fond_jauge{
+	height: 30px;
+	width: 150px;
+	background-color: white ;
+}
+
+.Langues{
+	display:flex;
+	flex-direction:row;}
+
+.jauge1{
+	height: 25px;
+	width: 125px;
+	background-color: #dd7e37 ;
+}
+
+.jauge2{
+	height: 25px;
+	width: 75px;
+	background-color: #dd7e37 ;
+}
+
+.jauge3{
+	height: 25px;
+	width: 50px;
+	background-color: #dd7e37 ;
+}
+.tel {
+	float: right;
+}
+
+.texte_droite {
+
+}
+
+#transparent {
+	height: 30%;
+	width: 100px;
+	background-color:#ecc279
+}
+
 
 
  @media (max-width: 767.98px){}
