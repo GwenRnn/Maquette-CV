@@ -106,11 +106,19 @@ body{
 	width: 50px;
 	background-color: #dd7e37 ;
 }
-.tel {
+.conteners_left {
+	text-align: right;
+}
+
+.mail {
 	float: right;
 }
 
+
 .texte_droite {
+	/*.mail {
+	float: right;
+}*/
 
 }
 
