@@ -5,6 +5,9 @@
 
 .white2 {
 	color : white;
+	font-size: 30px;
+	font-family:Inter;
+
 }
 
 h1 {
@@ -28,15 +31,40 @@ p{font-family:Inter;
 	font-size: 30px;
 }
 
+.rectangle_orange1 {
+	height: 302px;
+	width: 50px;
+	background-color: #E26E17 ;
+	position: absolute;
+	top: 68px
+}
+
+.rectangle_orange2 {
+	height: 302px;
+	width: 110px;
+	background-color: #E26E17 ;
+	position: absolute;
+	top: 68px;
+	left: 357px;
+
+}
+
+
 mark{
 	font-weight:bold;
 }
 
+/*.black {display: flex;
+	flex-wrap: wrap;}*/
+
 
 img#portrait{
-width: 70%;
+
+display: flex;
+justify-content: flex-end;
 height : auto ;
-opacity: 0.5
+width: 300px;
+opacity: 0.5;
 }
  
 
@@ -44,6 +72,10 @@ opacity: 0.5
 	color: black ;
 	font-family: Inter ;
 	font-size: 15px
+}
+.office{
+	display: flex;
+	flex-wrap: wrap;
 }
 	
 .conteneur_o {
@@ -69,8 +101,10 @@ body{
 
 #header2{
 	background-color: #E26E17;
-	padding: 40px;
-}
+	padding: 20px;
+	/*display: flex;
+	flex-direction: center;
+}*/}
 
 #trait_dessus{
 	height: 2px;
@@ -80,39 +114,65 @@ body{
 } 
 
 .fond_jauge{
+	/*display: flex;
+ 	justify-content: right;*/
 	height: 30px;
 	width: 150px;
 	background-color: white ;
+  	position: relative;
+  	left: 20px;
+  	bottom: 20px;
+  	z-index: 1;
+  }
+ 
+#icones{
+	display: flex;
+	flex-wrap: wrap;
 }
 
-.Langues{
-	display:flex;
-	flex-direction:row;}
+.office{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.adobe{
+	display: flex;
+	flex-wrap: wrap;
+}
 
 .jauge1{
 	height: 25px;
 	width: 125px;
 	background-color: #dd7e37 ;
+	position: relative;
+  	left: 23px;
+  	bottom: 47px;
+	z-index: 2;
 }
 
 .jauge2{
 	height: 25px;
 	width: 75px;
 	background-color: #dd7e37 ;
+	position: relative;
+  	left: 23px;
+  	bottom: 47px;
+	z-index: 3;
 }
 
 .jauge3{
 	height: 25px;
 	width: 50px;
 	background-color: #dd7e37 ;
+	position: relative;
+  	left:23px;
+  	bottom: 47px;
+	z-index: 4;
 }
 .conteners_left {
 	text-align: right;
 }
 
-.mail {
-	float: right;
-}
 
 
 .texte_droite {
