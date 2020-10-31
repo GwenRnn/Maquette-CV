@@ -5,7 +5,7 @@
 
 .white2 {
 	color : white;
-	font-size: 30px;
+	font-size: 23px;
 	font-family:Inter;
 
 }
@@ -13,7 +13,7 @@
 h1 {
 	color: white;
 	font-family: Abril Fatface;
-	font-size: 70px;
+	font-size: 50px;
 }
 
 h2 {
@@ -32,7 +32,7 @@ p{font-family:Inter;
 }
 
 .rectangle_orange1 {
-	height: 302px;
+	height: 235px;
 	width: 50px;
 	background-color: #E26E17 ;
 	position: absolute;
@@ -40,7 +40,7 @@ p{font-family:Inter;
 }
 
 .rectangle_orange2 {
-	height: 302px;
+	height: 235px;
 	width: 110px;
 	background-color: #E26E17 ;
 	position: absolute;
@@ -57,13 +57,16 @@ mark{
 /*.black {display: flex;
 	flex-wrap: wrap;}*/
 
+.text{
+	padding: 50px;
+}
 
 img#portrait{
 
 display: flex;
 justify-content: flex-end;
 height : auto ;
-width: 300px;
+width: 350px;
 opacity: 0.5;
 }
  
@@ -71,7 +74,7 @@ opacity: 0.5;
 .black {
 	color: black ;
 	font-family: Inter ;
-	font-size: 15px
+	font-size: 15px;
 }
 .office{
 	display: flex;
@@ -81,7 +84,7 @@ opacity: 0.5;
 .conteneur_o {
 	background-color : #ecc279; 
 	max-width: 30%;
-	padding: 50px;
+	
  }
 
 .partie_droite {
@@ -90,14 +93,24 @@ opacity: 0.5;
 	width: 60% ; 
 }
 
+.contener_vide{
+	height: 120px;
 
+}
+
+.contener_vide2{
+	height: 120px;
+
+}
 
 body{
 	display: flex;
 	flex-direction: row;
 	}
 
-
+.header{
+	padding-left: 50px
+}
 
 #header2{
 	background-color: #E26E17;
@@ -116,7 +129,7 @@ body{
 .fond_jauge{
 	/*display: flex;
  	justify-content: right;*/
-	height: 30px;
+	height: 20px;
 	width: 150px;
 	background-color: white ;
   	position: relative;
@@ -133,40 +146,42 @@ body{
 .office{
 	display: flex;
 	flex-wrap: wrap;
+	padding-top: 10px;
 }
 
 .adobe{
 	display: flex;
 	flex-wrap: wrap;
+	padding-top: 10px;
 }
 
 .jauge1{
-	height: 25px;
+	height: 15px;
 	width: 125px;
 	background-color: #dd7e37 ;
 	position: relative;
   	left: 23px;
-  	bottom: 47px;
+  	bottom: 37px;
 	z-index: 2;
 }
 
 .jauge2{
-	height: 25px;
+	height: 15px;
 	width: 75px;
 	background-color: #dd7e37 ;
 	position: relative;
   	left: 23px;
-  	bottom: 47px;
+  	bottom: 37px;
 	z-index: 3;
 }
 
 .jauge3{
-	height: 25px;
+	height: 15px;
 	width: 50px;
 	background-color: #dd7e37 ;
 	position: relative;
   	left:23px;
-  	bottom: 47px;
+  	bottom: 37px;
 	z-index: 4;
 }
 .conteners_left {

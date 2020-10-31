@@ -17,48 +17,53 @@
 			<img id="portrait" src="image/portrait.png">
 		</div>
 
-		
-		<div class="conteners_left">
-			<h2 class="white">Informations</h2>
-			<p>9 octobre 2001</p>
-			<div class="tel">
-			<p>+33 7 82 91 38 91<br>
-			gwendolineronin@gmail.com</p></div>
-			<div class="permis">
-			<p>Permis B</p></div>
+		<div class="contener_vide">
 		</div>	
 
-<!-- div utiles ou non ?  -->
+		<div class="text">
+			<div class="conteners_left">
+				<h2 class="white">Informations</h2>
+				<p>9 octobre 2001</p>
+				<div class="tel">
+				<p>+33 7 82 91 38 91<br>
+				gwendolineronin@gmail.com</p></div>
+				<div class="permis">
+				<p>Permis B</p></div>
+			</div>	
 
-		<div class="conteners_left">
-			<h2 class="white">Adresse</h2>
-			<div class="street">
-				<p>3 rue Victor HUGO</p>
+	<!-- div utiles ou non ?  -->
+
+			<div class="conteners_left">
+				<h2 class="white">Adresse</h2>
+				<div class="street">
+					<p>3 rue Victor HUGO</p>
+				</div>
+				<div class="city">
+					<p>42400 Saint Chamond</p>
+				</div>
+			</div>	
+
+			
+			<div class="conteners_left">
+				<h2 class="white">Etudes</h2>
+				<p>e-artsup Lyon</p>
+				<p>2e année de Grande Ecole</p>
+				<p>cursus direction artistique</p>
+				<p>création digitale</p>
+			</div> <!-- Besoin des div ou non ? -->
+
+			<div class="conteners_left">
+				<h2 class="white">Langues</h2>
+				<span class="black">Anglais (B1)</span>
+				<div class ="fond_jauge"></div>
+				<div class ="jauge1"></div>
+				<span class="black">Allemand (B1)</span>
+				<div class ="fond_jauge"></div>
+				<div class ="jauge2"></div>
+				<span class="black">Espagnol (A2)</span>
+				<div class ="fond_jauge"></div>
+				<div class ="jauge3"></div>
 			</div>
-			<div class="city">
-				<p>42400 Saint Chamond</p>
-			</div>
-		</div>	
-
-		<div class="conteners_left">
-			<h2 class="white">Etudes</h2>
-			<p>e-artsup Lyon</p>
-			<p>2e année de Grande Ecole</p>
-			<p>cursus direction artistique</p>
-			<p>création digitale</p>
-		</div> <!-- Besoin des div ou non ? -->
-
-		<div class="conteners_left">
-			<h2 class="white">Langues</h2>
-			<span class="black">Anglais (B1)</span>
-			<div class ="fond_jauge"></div>
-			<div class ="jauge1"></div>
-			<span class="black">Allemand (B1)</span>
-			<div class ="fond_jauge"></div>
-			<div class ="jauge2"></div>
-			<span class="black">Espagnol (A2)</span>
-			<div class ="fond_jauge"></div>
-			<div class ="jauge3"></div>
 		</div>
 	</div> 
 
@@ -71,6 +76,9 @@
 				<h1>Gwendoline RONIN</h1>
 				<p class="white2">étudiante en design graphique numérique</p>
 		</div>
+				
+		<div class="contener_vide2">
+		</div>	
 				
 		<div class="texte_droite">	
 			<div class="orange_title"></div>
@@ -118,7 +126,7 @@
 								<!-- Faut-il utiliser des spans pour mettre les icones en lignes ? Font awesome Adobe ?  -->
 							</div>
 							<div class="adobe">
-								<span class="black">Pack Adobe</span>
+								<p>Pack Adobe</p>
 								<span class="icon">
 									<img src="https://img.icons8.com/ios/50/000000/adobe-illustrator.png"/></span>
 								<span class="icon">
