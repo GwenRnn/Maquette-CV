@@ -7,6 +7,10 @@
 	color : white;
 	font-size: 23px;
 	font-family:Inter;
+	margin-left: 60px;
+	display: flex;
+	flex-wrap: wrap;
+
 
 }
 
@@ -14,6 +18,10 @@ h1 {
 	color: white;
 	font-family: Abril Fatface;
 	font-size: 50px;
+	margin-left: 60px;
+	display: flex;
+	flex-wrap: wrap;
+
 }
 
 h2 {
@@ -31,23 +39,21 @@ p{font-family:Inter;
 	font-size: 30px;
 }
 
+
 .rectangle_orange1 {
-	height: 235px;
+	height: 215px;
 	width: 50px;
 	background-color: #E26E17 ;
+	display: flex;
+	justify-content: flex-start;
 	position: absolute;
-	top: 68px
+	z-index: 1;
+	margin-top: 40px;
+	
+	/*position: absolute;
+	top: 68px*/
 }
 
-.rectangle_orange2 {
-	height: 235px;
-	width: 110px;
-	background-color: #E26E17 ;
-	position: absolute;
-	top: 68px;
-	left: 357px;
-
-}
 
 
 mark{
@@ -64,7 +70,7 @@ mark{
 img#portrait{
 
 display: flex;
-justify-content: flex-end;
+justify-content: center;
 height : auto ;
 width: 350px;
 opacity: 0.5;
@@ -79,6 +85,7 @@ opacity: 0.5;
 .office{
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: space-between;
 }
 	
 .conteneur_o {
@@ -94,7 +101,7 @@ opacity: 0.5;
 }
 
 .contener_vide{
-	height: 120px;
+	height:80px;
 
 }
 
@@ -103,18 +110,31 @@ opacity: 0.5;
 
 }
 
+.space{
+	width: 30px;
+	background-color: white;
+}
+
 body{
 	display: flex;
 	flex-direction: row;
+	padding-left: 0px;
+	padding-right: 0px;
 	}
 
 .header{
-	padding-left: 50px
+	display: flex;
+	justify-content: flex-end;
+	padding-left: 50px;
+	position: relative;
+	z-index: 2;
 }
 
 #header2{
 	background-color: #E26E17;
-	padding: 20px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	margin-top: 40px;
 	/*display: flex;
 	flex-direction: center;
 }*/}
@@ -122,8 +142,7 @@ body{
 #trait_dessus{
 	height: 2px;
 	width: 900px;
-	background-color: orange ;
-	color: orange;
+	background-color: orange;
 } 
 
 .fond_jauge{
@@ -153,6 +172,8 @@ body{
 	display: flex;
 	flex-wrap: wrap;
 	padding-top: 10px;
+	display: flex;
+	justify-content: space-between;
 }
 
 .jauge1{
@@ -184,6 +205,7 @@ body{
   	bottom: 37px;
 	z-index: 4;
 }
+
 .conteners_left {
 	text-align: right;
 }
