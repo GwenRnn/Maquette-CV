@@ -41,8 +41,8 @@ p{font-family:Inter;
 
 
 .rectangle_orange1 {
-	height: 215px;
-	width: 50px;
+	height: 25%;
+	width: 10%;
 	background-color: #E26E17 ;
 	display: flex;
 	justify-content: flex-start;
@@ -60,8 +60,12 @@ mark{
 	font-weight:bold;
 }
 
-/*.black {display: flex;
-	flex-wrap: wrap;}*/
+.black2 {display: flex;
+	justify-content: flex-end;
+	color: black ;
+	font-family: Inter ;
+	font-size: 15px;
+}
 
 .text{
 	padding: 50px;
@@ -72,7 +76,7 @@ img#portrait{
 display: flex;
 justify-content: center;
 height : auto ;
-width: 350px;
+width: 75%;
 opacity: 0.5;
 }
  
@@ -130,6 +134,15 @@ body{
 	z-index: 2;
 }
 
+.header_v{
+	display: flex;
+	justify-content: flex-start;
+	padding-left: 50px;
+	position: relative;
+	z-index: 3;
+}
+
+
 #header2{
 	background-color: #E26E17;
 	padding-top: 10px;
@@ -141,7 +154,7 @@ body{
 
 #trait_dessus{
 	height: 2px;
-	width: 900px;
+	width: 100%;
 	background-color: orange;
 } 
 
@@ -155,6 +168,8 @@ body{
   	left: 20px;
   	bottom: 20px;
   	z-index: 1;
+  	display: flex;
+	justify-content: flex-start;
   }
  
 #icones{
@@ -180,6 +195,8 @@ body{
 	height: 15px;
 	width: 125px;
 	background-color: #dd7e37 ;
+	display: flex;
+	justify-content: flex-start;
 	position: relative;
   	left: 23px;
   	bottom: 37px;
@@ -196,6 +213,12 @@ body{
 	z-index: 3;
 }
 
+.largeur_langues{
+	height: 30px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
 .jauge3{
 	height: 15px;
 	width: 50px;
@@ -204,6 +227,10 @@ body{
   	left:23px;
   	bottom: 37px;
 	z-index: 4;
+}
+
+.taille_jauge {
+	height: 10px;
 }
 
 .conteners_left {
