@@ -1,252 +1,367 @@
-.white { 
-	color : white;
-	font-size: 25px;
+@media (max-width: 2000px){
+
+	#bodyy{
+		width: 80%;
+		display:flex;
+		justify-content: flex-end;
+		border: solid;
+		border-color: orange;
+	}
+
+	.white { 
+		color : white;
+		font-size: 25px;
+	}
+
+	.white2 {
+		color : white;
+		font-size: 23px;
+		font-family:Inter;
+		margin-left: 60px;
+		display: flex;
+		flex-wrap: wrap;
+
+
+	}
+
+	h1 {
+		color: white;
+		font-family: Abril Fatface;
+		font-size: 50px;
+		margin-left: 60px;
+		display: flex;
+		flex-wrap: wrap;
+
+	}
+
+	h2 {
+		color: red;
+		font-family: Abril Fatface;
+	}
+	 
+
+	p{font-family:Inter;
+	 	font-size : 15px;
+	 }
+
+	.orange {
+		color : #FF9438; 
+		font-size: 30px;
+	}
+
+
+	.rectangle_orange1 {
+		height: 215px;
+		width: 10%;
+		background-color: #E26E17 ;
+		display: flex;
+		/*justify-content: flex-start;
+		position: absolute;
+		z-index: 1;*/
+		margin-top: 40px;
+		
+		/*position: absolute;
+		top: 68px*/
+	}
+
+
+
+	span{
+		font-weight:bold;
+	}
+
+	.black2 {display: flex;
+		justify-content: flex-end;
+		color: black ;
+		font-family: Inter ;
+		font-size: 15px;
+		/*align-items: flex-start;*/
+	}
+
+	.text{
+		padding: 50px;
+	}
+
+	img#portrait{
+
+	display: flex;
+	justify-content: center;
+	height : auto ;
+	width: 90%;
+	opacity: 0.5;
+	}
+	 
+
+	.black {
+		color: black ;
+		font-family: Inter ;
+		font-size: 15px;
+	}
+	.office{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+		
+	.conteneur_o {
+		background-color : #ecc279; 
+		max-width: 30%;
+		
+	 }
+
+	.partie_droite {
+		background-color : white; 
+		padding: 60px;
+		width: 60% ; 
+	}
+
+	.contener_vide{
+		height:80px;
+
+	}
+
+	.contener_vide2{
+		height: 120px;
+
+	}
+
+	.space{
+		width: 30px;
+		background-color: white;
+	}
+
+	body{
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		padding-left: 0px;
+		padding-right: 0px;
+		}
+
+	.header{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		/*padding-left: 50px;
+		position: relative;
+		z-index: 2;*/
+	}
+
+	.header_v{
+		display: flex;
+		justify-content: flex-start;
+		padding-left: 50px;
+		position: relative;
+		z-index: 3;
+	}
+
+
+	#header2{
+		background-color: #E26E17;
+		padding-top: 10px;
+		padding-bottom: 20px;
+		margin-top: 40px;
+		/*display: flex;
+		flex-direction: center;
+	}*/}
+
+	.trait_dessus{
+		height: 2px;
+		width: 100%;
+		background-color: orange;
+	} 
+
+	.fond_jauge{
+		/*display: flex;
+	 	justify-content: right;*/
+		height: 20px;
+		width: 40%;
+		background-color: white ;
+	  	position: relative;
+	  	/*left: 20px;
+	  	bottom: 20px;*/
+	  	display: flex;
+		justify-content: flex-start;
+		/*align-items: flex-start;*/
+	  }
+	 
+	#icones{
+		display: flex;
+		flex-wrap: wrap;
+		margin-top: 6px;
+	}
+
+	.office{
+		display: flex;
+		flex-wrap: wrap;
+		padding-top: 10px;
+	}
+
+	.icon {
+		margin:3px;
+	}
+
+	li {
+		padding-top:6px;
+		padding-bottom:6px;
+	}
+
+	.adobe{
+		display: flex;
+		flex-wrap: wrap;
+		padding-top: 10px;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.jauge1{
+		height: 15px;
+		width: 75%;
+		background-color: #dd7e37 ;
+		display: flex;
+		justify-content: flex-start;
+		position: relative;
+	  	margin: 3px;
+	}
+
+	.jauge2{
+		height: 15px;
+		width: 45%;
+		background-color: #dd7e37 ;
+		position: relative;
+	  	margin: 3px;
+	}
+
+	.jauge3{
+		height: 15px;
+		width: 30%;
+		background-color: #dd7e37 ;
+		position: relative;
+	  	margin: 3px;
+	}
+
+	.class{
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+
+
+	.conteners_left {
+		text-align: right;
+	}
+
+
+
+	.texte_droite {
+		/*.mail {
+		float: right;
+	}*/
+
+	}
+
+	.cadre {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		align-items: center;
+	}
+
 }
 
-.white2 {
+@media (max-width: 1024px){
+
+	body{
+		display: flex;
+		flex-direction: column;
+	}
+
+	#bodyy{
+		width: 80%;
+		display:flex;
+		justify-content: flex-end;
+		border: solid;
+		border-color: orange;
+		flex-direction: column;
+
+	}
+
+	.conteneur_o {
+		background-color : #ecc279; 
+		max-width: 100%;
+		
+	 }
+
+	 .partie_droite {
+		background-color : white; 
+		padding: 60px;
+		width: 100% ; 
+
+	}
+
+	img#portrait{
+
+	display: flex;
+	justify-content: center;
+	width: 500px;
+	height: auto;
+	opacity: 0.5;
+	}
+	 
+	.rectangle_orange1 {
+		height: 470px;
+		width: 50%;
+		background-color: #E26E17 ;
+		display: flex;
+	}
+
+	.header{
+		display: flex;
+		flex-wrap: nowrap;
+		justify-content: space-between;
+	}
+
+	.trait_dessus{
+		height: 2px;
+		width: 100%;
+		background-color: orange;
+	}
+
+	.partie_droite {
+		background-color : white; 
+		padding: 60px;
+	}
+
+	.white2 {
 	color : white;
 	font-size: 23px;
 	font-family:Inter;
-	margin-left: 60px;
 	display: flex;
 	flex-wrap: wrap;
-
-
-}
-
-h1 {
-	color: white;
-	font-family: Abril Fatface;
-	font-size: 50px;
-	margin-left: 60px;
-	display: flex;
-	flex-wrap: wrap;
-
-}
-
-h2 {
-	color: red;
-	font-family: Abril Fatface;
-}
- 
-
-p{font-family:Inter;
- 	font-size : 15px;
- }
-
-.orange {
-	color : #FF9438; 
-	font-size: 30px;
-}
-
-
-.rectangle_orange1 {
-	height: 215px;
-	width: 10%;
-	background-color: #E26E17 ;
-	display: flex;
-	justify-content: flex-start;
-	position: absolute;
-	z-index: 1;
-	margin-top: 40px;
-	
-	/*position: absolute;
-	top: 68px*/
-}
-
-
-
-mark{
-	font-weight:bold;
-}
-
-.black2 {display: flex;
-	justify-content: flex-end;
-	color: black ;
-	font-family: Inter ;
-	font-size: 15px;
-	align-items: flex-start;
-}
-
-.text{
-	padding: 50px;
-}
-
-img#portrait{
-
-display: flex;
-justify-content: center;
-height : auto ;
-width: 75%;
-opacity: 0.5;
-}
- 
-
-.black {
-	color: black ;
-	font-family: Inter ;
-	font-size: 15px;
-}
-.office{
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
-}
-	
-.conteneur_o {
-	background-color : #ecc279; 
-	max-width: 30%;
-	
- }
-
-.partie_droite {
-	background-color : white; 
-	padding: 60px;
-	width: 60% ; 
-}
-
-.contener_vide{
-	height:80px;
-
-}
-
-.contener_vide2{
-	height: 120px;
-
-}
-
-.space{
-	width: 30px;
-	background-color: white;
-}
-
-body{
-	display: flex;
-	flex-direction: row;
-	padding-left: 0px;
-	padding-right: 0px;
+	justify-content: center;
 	}
 
-.header{
-	display: flex;
-	justify-content: flex-end;
-	padding-left: 50px;
-	position: relative;
-	z-index: 2;
-}
+	.contener_vide2{
+		height: 10px;
 
-.header_v{
-	display: flex;
-	justify-content: flex-start;
-	padding-left: 50px;
-	position: relative;
-	z-index: 3;
-}
+	}
 
+	.conteners_left {
+		text-align: center;
+	}
 
-#header2{
-	background-color: #E26E17;
-	padding-top: 10px;
-	padding-bottom: 20px;
-	margin-top: 40px;
-	/*display: flex;
-	flex-direction: center;
-}*/}
-
-.trait_dessus{
-	height: 2px;
-	width: 100%;
-	background-color: orange;
-} 
-
-.fond_jauge{
-	/*display: flex;
- 	justify-content: right;*/
-	height: 20px;
-	width: 40%;
-	background-color: white ;
-  	position: relative;
-  	/*left: 20px;
-  	bottom: 20px;*/
-  	display: flex;
-	justify-content: flex-start;
-	align-items: flex-start;
-  }
- 
-#icones{
-	display: flex;
-	flex-wrap: wrap;
-}
-
-.office{
-	display: flex;
-	flex-wrap: wrap;
-	padding-top: 10px;
-}
-
-.adobe{
-	display: flex;
-	flex-wrap: wrap;
-	padding-top: 10px;
-	display: flex;
-	justify-content: space-between;
-}
-
-.jauge1{
-	height: 15px;
-	width: 75%;
-	background-color: #dd7e37 ;
-	display: flex;
-	justify-content: flex-start;
-	position: relative;
-  	margin: 3px;
-}
-
-.jauge2{
-	height: 15px;
-	width: 45%;
-	background-color: #dd7e37 ;
-	position: relative;
-  	margin: 3px;
-}
-
-.jauge3{
-	height: 15px;
-	width: 30%;
-	background-color: #dd7e37 ;
-	position: relative;
-  	margin: 3px;
-}
-
-.class{
-	display: flex;
-	flex-wrap: wrap;
-}
+	.cadre {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		align-items: center;
+	}
 
 
-
-.conteners_left {
-	text-align: right;
-}
-
-
-
-.texte_droite {
-	/*.mail {
-	float: right;
-}*/
 
 }
-
-.cadre {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
-}
-
-
-
-
  @media (max-width: 767.98px){}
  @media (max-width: 991.98px){}	
-@media (max-width: 1199.98px){}
+
+
+424 wight => mettre en collone 
