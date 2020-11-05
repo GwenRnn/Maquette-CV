@@ -41,7 +41,7 @@ p{font-family:Inter;
 
 
 .rectangle_orange1 {
-	height: 305px;
+	height: 215px;
 	width: 10%;
 	background-color: #E26E17 ;
 	display: flex;
@@ -65,6 +65,7 @@ mark{
 	color: black ;
 	font-family: Inter ;
 	font-size: 15px;
+	align-items: flex-start;
 }
 
 .text{
@@ -165,11 +166,11 @@ body{
 	width: 40%;
 	background-color: white ;
   	position: relative;
-  	left: 20px;
-  	bottom: 20px;
-  	z-index: 1;
+  	/*left: 20px;
+  	bottom: 20px;*/
   	display: flex;
 	justify-content: flex-start;
+	align-items: flex-start;
   }
  
 #icones{
@@ -193,45 +194,36 @@ body{
 
 .jauge1{
 	height: 15px;
-	width: 33%;
+	width: 75%;
 	background-color: #dd7e37 ;
 	display: flex;
 	justify-content: flex-start;
 	position: relative;
-  	left: 23px;
-  	bottom: 37px;
-	z-index: 2;
+  	margin: 3px;
 }
 
 .jauge2{
 	height: 15px;
-	width: 75px;
+	width: 45%;
 	background-color: #dd7e37 ;
 	position: relative;
-  	left: 23px;
-  	bottom: 37px;
-	z-index: 3;
-}
-
-.largeur_langues{
-	height: 30px;
-	display: flex;
-	flex-wrap: wrap;
+  	margin: 3px;
 }
 
 .jauge3{
 	height: 15px;
-	width: 50px;
+	width: 30%;
 	background-color: #dd7e37 ;
 	position: relative;
-  	left:23px;
-  	bottom: 37px;
-	z-index: 4;
+  	margin: 3px;
 }
 
-.taille_jauge {
-	height: 10px;
+.class{
+	display: flex;
+	flex-wrap: wrap;
 }
+
+
 
 .conteners_left {
 	text-align: right;
@@ -246,11 +238,12 @@ body{
 
 }
 
-#transparent {
-	height: 30%;
-	width: 100px;
-	background-color:#ecc279
+.cadre {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
 }
+
 
 
 
