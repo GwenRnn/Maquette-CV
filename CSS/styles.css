@@ -152,7 +152,7 @@ body{
 	flex-direction: center;
 }*/}
 
-#trait_dessus{
+.trait_dessus{
 	height: 2px;
 	width: 100%;
 	background-color: orange;
