@@ -29,7 +29,7 @@
 	}
 
 	.contener_vide {
-		color: #FF9438;
+		color: #e26e17;
 		text-align: center;
 		padding-top: 40px;
 
@@ -344,7 +344,6 @@
 	}
 	 
 	.rectangle_orange1 {
-		height: 470px;
 		width: 30%;
 		background-color: #E26E17 ;
 		display: flex;
